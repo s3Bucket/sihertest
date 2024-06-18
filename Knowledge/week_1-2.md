@@ -14,6 +14,8 @@
 
 #### Welche Rechtsformen gibt es noch?
 
+  - Gbr, OHG, Einzelunternehmen, AG , KG
+
 
 
 
@@ -24,6 +26,8 @@
 ### Was ist Git?
 
 #### Was ist GitHub? Was ist der Unterschied zu Git?
+
+-GitHub ist eine Plattform in der man text als textdatei abspeichern kann und auch mit mehren drauf zu greifen könnten mit einer Versions Verlauf.
 
 #### Wem gehört GitHub aktuell?
 
@@ -39,15 +43,21 @@
 
 ### Was versteht man im Zusammenhang mit AWS als Service?
 
+  - AWS ist eine Cloud Plattfrom mit mehren Service die 
+
 ### Was ist AWS S3?
-
+  -> Ein Speicher Dienst von AWS 
 #### Wofür ist der Service gut?
-
+  -> Speicherung von Daten 
 #### Was ist ein Bucket?
+
+  - Ist der Speicher ort von AWS S3 hier werden die Datei gespeichert.
 
 #### Was ist ein Objekt?
 
 ### Was ist AWS EC2?
+
+-> Ist der AWS Service für Virtuller Server  
 
 #### Welchen Status kann ein Server haben?
 
