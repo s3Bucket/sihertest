@@ -2,11 +2,20 @@
 
 ### Was weißt du über den Betrieb?
 
+  - Wir sind ein IT-Dienstleitungsunternehmen im Cloud Bereich. Wir bieten Beratung, Entwicklung & 
+
 #### Wie heißt der Geschäftsführer?
+
+  - Johannes Hiemer 
 
 #### Welche Rechtsform hat die Evoila? Was ist die Besonderheiten daran?
 
+  - GmbH ->Gesellschaft mit Beschränkter Haftung. Die Besonderheit an dieser Rechtsform ist dass der Geschäftsführer nicht mit sein Privatvermögen haftet sondern nur das vom Unternehmen.
+
 #### Welche Rechtsformen gibt es noch?
+
+
+
 
 
 
