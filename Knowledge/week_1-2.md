@@ -31,6 +31,8 @@
 
 #### Wem gehört GitHub aktuell?
 
+  - Microsoft
+
 ###  Wie lauten die Git-Befehle für folgende Anwendungsfällen:
 
 * Die Dateien zum Hochladen zwischenspeichern (staging)?
@@ -60,6 +62,8 @@
 -> Ist der AWS Service für Virtuller Server  
 
 #### Welchen Status kann ein Server haben?
+
+-> Der Server kann entweder an sein oder ausgeschaltet 
 
 #### Was ist im EC2-Kontext ein "IGW"? Wofür braucht man es?
 
