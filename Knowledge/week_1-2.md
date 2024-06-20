@@ -25,6 +25,8 @@
 
 ### Was ist Git?
 
+-Git funktioniert in der Console und funkioniert auch ohne Github ist eine Tool zu Commit von Text mit Versionsverlauf 
+
 #### Was ist GitHub? Was ist der Unterschied zu Git?
 
 -GitHub ist eine Plattform in der man text als textdatei abspeichern kann und auch mit mehren drauf zu greifen könnten mit einer Versions Verlauf.
