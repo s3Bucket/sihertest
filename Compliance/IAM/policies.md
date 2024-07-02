@@ -19,6 +19,8 @@
     - Überprüfe die Richtlinie und gib ihr den Namen `S3FullAccessPolicy`.
 3. **Frage**: Welche Risiken sind mit einer so weitreichenden Richtlinie verbunden?
 
+   -> Das Risiko entsteht dadurch das * sysbole alle Rechte dem angelegten Nutzer gewährt. So eine Nutzer hat unkontrollierte alle Recht was nicht sein sollte. Solche         eine Form von Rechten sollten nur Administrator haben.
+
 ### Übungsaufgabe 2: Anfügen einer Richtlinie an einen Benutzer
 1. **Aufgabe**: Füge die `S3FullAccessPolicy` Richtlinie dem Benutzer `Siher` hinzu.
 2. **Schritte**:
