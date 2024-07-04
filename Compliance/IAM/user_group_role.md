@@ -11,8 +11,17 @@
     - Erstelle ein Schlüsselpaar (Access Key ID und Secret Access Key) und speichere diese sicher.
 3. **Fragen**:
    - Wie kannst du sicherstellen, dass der Benutzer `Siher` nur bestimmte Aktionen in AWS ausführen kann?
+
+          -> Man setzt nur bestimmte Berechtigungen frei
+
+
    - Was sind 'Policies'? Wofür werden diese gebraucht?
+
+       -> Es sind die Richtline die man ein Benutzter geben kann für die er rechte hat.
+  
    - Ein Benutzer hat weder die Berechtigung, noch ein Verbot um EC2-Instanzen zu administrieren. Kann er das dann machen?
+
+     -> Sollte nicht der Fall sein da er keine Berechtigung hat.
 
 ### Übungsaufgabe 2: IAM Gruppe erstellen und Berechtigungen zuweisen
 1. **Aufgabe**: Erstelle eine neue IAM Gruppe namens `Praktikanten`.
@@ -23,9 +32,14 @@
     - Weisen der Gruppe eine Richtlinie zu.
 3. **Frage**: 
    - Welche Berechtigungen hat ein Benutzer, der Mitglied der Gruppe `Praktikanten` ist?
+
+  -> Er besitz die Rechte die der Gruppe zugewiesen wurde, dazu noch die Rechte die in als Benutzer dazu gegeben wurden mehr gegeben wurde.
+  
    - Ein Benutzer hat die Berechtigung "AmazonEC2FullAccess" mit der er EC2-Instanzen administrieren kann. Gleichzeitig
-   gleichzeititg ister aber auch in einer Gruppe, die den Zugriff auf "AmazonEC2FullAccess" verbietet. Kann der Benutzer 
-   EC2-Instanzen administrieren?
+   gleichzeititg ist er aber auch in einer Gruppe, die den Zugriff auf "AmazonEC2FullAccess" verbietet. Kann der Benutzer 
+   EC2-Instanzen administrieren ?
+
+    -> Nein, der Benutzer kann EC2-Instanzen nicht administrieren, weil die Mitgliedschaft in der Gruppe, die den Zugriff verbietet, Vorrang hat.
 
 ### Übungsaufgabe 3: Benutzer einer Gruppe hinzufügen
 1. **Aufgabe**: Füge den Benutzer `Siher` zur Gruppe `Praktikanten` hinzu.
